@@ -1,7 +1,7 @@
 ﻿Public Class frmAdmin
     Private Sub btndashboard_Click(sender As Object, e As EventArgs) Handles btndashboard.Click
         pagepanel.Controls.Clear()
-        Dim frm As New frmAdminDashboard()
+        Dim frm As New frmDashboard()
         frm.TopLevel = False
         frm.FormBorderStyle = Windows.Forms.FormBorderStyle.None
         frm.Dock = DockStyle.Fill
