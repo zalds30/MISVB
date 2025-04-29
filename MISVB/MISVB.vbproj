@@ -74,6 +74,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDashBoard.Designer.vb">
+      <DependentUpon>AdminDashBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashBoard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="FrmAdmin.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -99,16 +111,23 @@
     <Compile Include="frmHerogram.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRecruitment.Designer.vb">
-      <DependentUpon>frmRecruitment.vb</DependentUpon>
+    <Compile Include="frmJobpositons.Designer.vb">
+      <DependentUpon>frmJobpositons.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmRecruitment.vb">
+    <Compile Include="frmJobpositons.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jobpostions.Designer.vb">
+      <DependentUpon>Jobpostions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jobpostions.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -122,6 +141,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AdminDashBoard.resx">
+      <DependentUpon>AdminDashBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAdmin.resx">
       <DependentUpon>FrmAdmin.vb</DependentUpon>
     </EmbeddedResource>
@@ -134,8 +159,11 @@
     <EmbeddedResource Include="frmHerogram.resx">
       <DependentUpon>frmHerogram.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRecruitment.resx">
-      <DependentUpon>frmRecruitment.vb</DependentUpon>
+    <EmbeddedResource Include="frmJobpositons.resx">
+      <DependentUpon>frmJobpositons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jobpostions.resx">
+      <DependentUpon>Jobpostions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
