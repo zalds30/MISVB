@@ -80,6 +80,18 @@
     <Compile Include="AdminDashBoard.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="AdminDashBoard1.Designer.vb">
+      <DependentUpon>AdminDashBoard1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashBoard1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalendarSchedule.Designer.vb">
+      <DependentUpon>CalendarSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarSchedule.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Dashboard.Designer.vb">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
@@ -97,6 +109,18 @@
       <DependentUpon>frmAdminDashboard.vb</DependentUpon>
     </Compile>
     <Compile Include="frmAdminDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminDashboard1.Designer.vb">
+      <DependentUpon>frmAdminDashboard1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminDashboard1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalendarSchedule.Designer.vb">
+      <DependentUpon>frmCalendarSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalendarSchedule.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDashboard.Designer.vb">
@@ -144,6 +168,12 @@
     <EmbeddedResource Include="AdminDashBoard.resx">
       <DependentUpon>AdminDashBoard.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashBoard1.resx">
+      <DependentUpon>AdminDashBoard1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarSchedule.resx">
+      <DependentUpon>CalendarSchedule.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +182,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdminDashboard.resx">
       <DependentUpon>frmAdminDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminDashboard1.resx">
+      <DependentUpon>frmAdminDashboard1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalendarSchedule.resx">
+      <DependentUpon>frmCalendarSchedule.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDashboard.resx">
       <DependentUpon>frmDashboard.vb</DependentUpon>
